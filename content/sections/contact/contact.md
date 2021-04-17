@@ -1,7 +1,7 @@
 ---
-phone: '+49 1234 5678910'
-email: 'maxmustermann@gmail.com'
-address: 'Friesenstr. 123, Berlin, Germany'
+phone: '+610 410 256 252'
+email: 'oleksii.mostovyi@gmail.com'
+# address: 'Friesenstr. 123, Berlin, Germany'
 ---
 
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr,

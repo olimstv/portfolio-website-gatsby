@@ -1,12 +1,12 @@
 module.exports = {
   pathPrefix: '/gatsby-starter-level-2',
   siteMetadata: {
-    title: 'Level 2',
+    title: 'Oleksii Mostovyi developer portfolio',
     titleTemplate: '%s · Level 2',
     image: '/images/logo.png',
-    author: 'Max Mustermann',
-    description: 'Gatsby starter to quickly setup your portfolio and boost it to the next level.',
-    url: 'https://knochenmark.github.io',
+    author: 'Oleksii Mostovyi',
+    description: 'This App contains information about my work experience as a software developer/test engineer.',
+    url: 'https://oleksiimostovyi.com',
     paginationPageSize: 4, // Amount of posts displayed per listing page.
   },
   plugins: [
