@@ -5,6 +5,8 @@ import ButtonLink from './links/button-link';
 import ScrollIndicator from './scroll-indicator';
 import { mq } from './_shared/media';
 import { StyledSection } from './_shared/styled-section';
+import menuLinks from './_config/menu-links'
+import Link from 'gatsby'
 
 const StyledHeroSection = styled(StyledSection)`
   min-height: calc(100vh - 2 * var(--header-height));
@@ -48,15 +50,15 @@ const StyledDescription = styled.div`
 `;
 
 const Hero = ({ data }) => {
-  const { introduction, author, tagline, description, ctaLink, ctaLabel } = data;
-
+  const { introduction, author, tagline, description, aboutLink, resumeInPdf } = data;
+  
   return (
     <StyledHeroSection>
       <StyledIntroduction>{introduction}</StyledIntroduction>
       <StyledAuthor>{author}</StyledAuthor>
       <StyledTagline>{tagline}</StyledTagline>
       <StyledDescription dangerouslySetInnerHTML={{ __html: description }} />
-      <ButtonLink label={ctaLabel} link={ctaLink} />
+      <ButtonLink />
       <ScrollIndicator />
     </StyledHeroSection>
   );
@@ -64,6 +66,8 @@ const Hero = ({ data }) => {
 
 Hero.propTypes = {
   data: PropTypes.object.isRequired,
+  
 };
+
 
 export default Hero;

@@ -1,7 +1,7 @@
 ---
-title: 'The Gatsby starter that makes developer dreams come true!'
+title: 'I am a web & software developer.'
 about_image: './me.jpg'
-techs: ['Gatsby', 'Javascript', 'React', 'GraphQL', 'Emotion', 'Stylus']
+techs: ['HTML','CSS','Javascript', 'React', 'Rest API', 'Express', 'MongoDB','Node JS', 'Ruby', Rails', 'PostgreSQL']
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur egestas sit amet arcu tincidunt fermentum. Mauris ac nisl nibh. Etiam nunc eros, blandit vel eros laoreet, accumsan lacinia turpis.

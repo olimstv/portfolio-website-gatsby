@@ -2,16 +2,26 @@ module.exports = {
   pathPrefix: '/gatsby-starter-level-2',
   siteMetadata: {
     title: 'Oleksii Mostovyi developer portfolio',
-    titleTemplate: '%s · Level 2',
+    titleTemplate: 'o.m -%s',
     image: '/images/logo.png',
     author: 'Oleksii Mostovyi',
     description: 'This App contains information about my work experience as a software developer/test engineer.',
     url: 'https://oleksiimostovyi.com',
     paginationPageSize: 4, // Amount of posts displayed per listing page.
+    resumeInPdf: './Oleksii_Mostovyi_CV.pdf'
   },
   plugins: [
     `gatsby-plugin-stylus`,
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-catch-links`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `assets`, 
+        path: `${__dirname}/src/assets`,
+      },
+    },
+    `gatsby-transformer-remark`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {

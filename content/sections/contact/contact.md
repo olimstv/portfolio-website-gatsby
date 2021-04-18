@@ -1,9 +1,6 @@
 ---
-phone: '+610 410 256 252'
+phone: '+61 410 256 252'
 email: 'oleksii.mostovyi@gmail.com'
-# address: 'Friesenstr. 123, Berlin, Germany'
 ---
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
-sed diam nonumy [Link to issues](https://github.com/Knochenmark/gatsby-starter-level-2/issues) tempor invidunt ut labore
-et dolore magna aliquyam erat, sed diam voluptua.
+If what you've got about me from this page resonates with you, let's get in touch!

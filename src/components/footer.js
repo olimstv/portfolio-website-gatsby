@@ -73,10 +73,6 @@ const Footer = ({ author }) => {
           </StyledCopyright>
           <SocialIcons icons={socialIconList} />
         </StyledSocialContainer>
-        <StyledRotatorContainer>
-          Made with
-          <Rotator emojis={['☕', '🍕', '🍺', '🍜', '💖']} />
-        </StyledRotatorContainer>
       </StyledFooterContainer>
     </StyledFooter>
   );

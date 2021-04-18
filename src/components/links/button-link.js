@@ -1,13 +1,16 @@
 import styled from '@emotion/styled';
 import React from 'react';
+import { useStaticQuery, graphql } from "gatsby"
 import Icon from '../icon';
 import { flexCenter } from './../_shared/styled-mixins';
 
 export const StyledButtonLink = styled.a`
   ${flexCenter};
   text-decoration: none;
-  color: var(--bg-content-color) !important;
-  background-color: var(--title-color);
+  color: var(--primary-color) !important;
+  // background-color: var(--bg-color);
+  background-color: #2c2f43;
+  // background-color: #fff;
   font-size: 0.9rem;
   font-weight: 500;
   white-space: nowrap;
@@ -16,13 +19,15 @@ export const StyledButtonLink = styled.a`
   padding: 0.4rem 0.8rem;
 
   &:hover {
-    color: var(--primary-color) !important;
+    // color: var(--title-color) !important;
+    color: #fbe9c0 !important;
+    transition: all ease var(--transition-fast);
   }
 
   &:after {
     content: '';
     z-index: -1;
-    border: 1px solid var(--title-color);
+    border: 1px solid var(--primary-color);
     position: absolute;
     bottom: -3px;
     right: -3px;
@@ -32,7 +37,7 @@ export const StyledButtonLink = styled.a`
   }
 
   &:hover:after {
-    border: 1px solid var(--primary-color);
+    border: 1px solid #fbe9c0;
     bottom: -5px;
     right: -5px;
   }
@@ -48,17 +53,37 @@ export const StyledButtonLink = styled.a`
   }
 `;
 
-const ButtonLink = ({ label, link }) => {
-  return (
-    <React.Fragment>
-      {label && link && (
-        <StyledButtonLink href={link ? link : '#'} target="_blank" rel="noopener">
-          {label}
-          <Icon icon="arrow-right" />
+const ButtonLink = () => {
+  const data = useStaticQuery(graphql`
+  {
+    allFile(filter: { extension: { eq: "pdf" } }) {
+      edges {
+        node {
+          publicURL
+          name
+        }
+      }
+    }
+  }
+`)
+const resume = data.allFile.edges[0].node.publicURL
+return (
+  <React.Fragment>
+      
+      <StyledButtonLink
+        href={ resume}
+        target='_blank'
+        // download
+        >
+          My Resume
+          <Icon icon="file-alt" />
         </StyledButtonLink>
-      )}
+      
     </React.Fragment>
   );
+
 };
+
+
 
 export default ButtonLink;
