@@ -5,8 +5,8 @@ import ButtonLink from './links/button-link';
 import ScrollIndicator from './scroll-indicator';
 import { mq } from './_shared/media';
 import { StyledSection } from './_shared/styled-section';
-import menuLinks from './_config/menu-links'
-import Link from 'gatsby'
+import menuLinks from './_config/menu-links';
+import Link from 'gatsby';
 
 const StyledHeroSection = styled(StyledSection)`
   min-height: calc(100vh - 2 * var(--header-height));
@@ -33,7 +33,8 @@ const StyledAuthor = styled.h1`
 `;
 const StyledTagline = styled.h2`
   margin-left: -4px !important;
-  font-size: 40px;
+  // font-size: 60px !important;
+  // font-weight: 400;
   line-height: 1.1;
   margin: 0;
   color: var(--primary-color);
@@ -50,8 +51,8 @@ const StyledDescription = styled.div`
 `;
 
 const Hero = ({ data }) => {
-  const { introduction, author, tagline, description, aboutLink, resumeInPdf } = data;
-  
+  const { introduction, author, tagline, description } = data;
+
   return (
     <StyledHeroSection>
       <StyledIntroduction>{introduction}</StyledIntroduction>
@@ -66,8 +67,6 @@ const Hero = ({ data }) => {
 
 Hero.propTypes = {
   data: PropTypes.object.isRequired,
-  
 };
-
 
 export default Hero;

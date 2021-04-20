@@ -2,7 +2,7 @@ import styled from '@emotion/styled';
 import { Link } from 'gatsby';
 import PropTypes from 'prop-types';
 import React from 'react';
-import Logo from '../assets/logo.svg';
+import Logo from '../assets/om-logo.svg';
 import SocialIcons from './social-icons';
 import { socialIconList } from './_config/social-icon-list';
 import { mq } from './_shared/media';
@@ -27,13 +27,41 @@ const StyledHomeLink = styled(Link)`
   text-decoration: none;
 `;
 const StyledLogo = styled(Logo)`
-  width: var(--header-height);
-  height: var(--header-height);
-  fill: var(--title-color);
+  // width: var(--header-height);
+  // height: var(--header-height);
+  width: 100px;
 
+  path.level-2 {
+    fill: var(--title-color);
+  }
+  path.om {
+    fill: var(--primary-color);
+  }
+
+  path.under {
+    visibility: hidden;
+  }
   &:hover path.level-2 {
     fill: var(--primary-color);
   }
+  // &:hover path.om {
+  //   fill: var(--title-color);
+  // }
+  &:hover path.under {
+    visibility: visible;
+    // animation: blink 0.5s infinite;
+  }
+  // @keyframe blink {
+  //   100%,
+  //   0% {
+  //     // fill: #f1b631;
+  //     opacity: 1;
+  //   }
+  //   50% {
+  //     // fill: #252839;
+  //     opacity: 0;
+  //   }
+  // }
 `;
 const StyledNav = styled.nav`
   flex: 1;

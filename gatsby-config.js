@@ -3,12 +3,12 @@ module.exports = {
   siteMetadata: {
     title: 'Oleksii Mostovyi developer portfolio',
     titleTemplate: 'o.m -%s',
-    image: '/images/logo.png',
+    image: '/images/.png',
     author: 'Oleksii Mostovyi',
     description: 'This App contains information about my work experience as a software developer/test engineer.',
     url: 'https://oleksiimostovyi.com',
     paginationPageSize: 4, // Amount of posts displayed per listing page.
-    resumeInPdf: './Oleksii_Mostovyi_CV.pdf'
+    resumeInPdf: './Oleksii_Mostovyi_CV.pdf',
   },
   plugins: [
     `gatsby-plugin-stylus`,
@@ -17,7 +17,7 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `assets`, 
+        name: `assets`,
         path: `${__dirname}/src/assets`,
       },
     },
@@ -80,7 +80,7 @@ module.exports = {
           {
             resolve: `gatsby-remark-images`,
             options: {
-              maxWidth: 590,
+              maxWidth: 90,
             },
           },
           `gatsby-remark-reading-time`,
@@ -96,7 +96,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/logo.png`, // This path is relative to the root of the site.
+        icon: `src/images/.png`, // This path is relative to the root of the site.
       },
     },
     {

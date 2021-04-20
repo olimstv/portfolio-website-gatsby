@@ -29,6 +29,7 @@ const Index = ({ data }) => {
       <About data={data.about} />
       {/* <CardGrid cards={data.cards.frontmatter.cards} description={data.cards.html} title="Our Features" id="features" /> */}
       <FeaturedProjects featured={data.featuredProjects.nodes} />
+      {/* <FeaturedProjects featured={data.featuredProjects.nodes} /> */}
       {/* <RecentPosts data={data.blog.edges} /> */}
       <Contact data={data.contact} />
     </Layout>
@@ -46,7 +47,6 @@ export const query = graphql`
     site {
       siteMetadata {
         author
-        
       }
     }
 
@@ -141,7 +141,6 @@ export const query = graphql`
       frontmatter {
         phone
         email
-        
       }
       html
     }
