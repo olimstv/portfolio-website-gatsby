@@ -32,16 +32,16 @@ const StyledLogo = styled(Logo)`
   width: 100px;
 
   path.level-2 {
-    fill: var(--title-color);
+    fill: var(--primary-color);
   }
   path.om {
     fill: var(--primary-color);
     
   }
 
-  path.under {
-    visibility: hidden;
-  }
+  // path.under {
+  //   visibility: hidden;
+  // }
   &:hover path.level-2 {
     fill: var(--primary-color);
   }
