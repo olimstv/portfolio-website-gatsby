@@ -1,6 +1,6 @@
 ---
 featured: true
-date: '2021-04-12'
+date: '2021-03-12'
 title: 'Memo'
 cover_image: './images/memo.jpg'
 repo_link: 'https://github.com/olimstv/notes-material-ui'
