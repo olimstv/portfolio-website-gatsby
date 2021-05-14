@@ -1,6 +1,6 @@
 ---
 featured: true
-date: '2010-05-08'
+date: '2021-05-08'
 title: 'Resume Builder App'
 cover_image: './images/letsgetit.jpg'
 repo_link: 'https://github.com/olimstv/resume-builder-app.git'

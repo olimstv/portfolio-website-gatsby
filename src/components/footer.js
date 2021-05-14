@@ -2,6 +2,7 @@ import { css } from '@emotion/core';
 import styled from '@emotion/styled';
 import PropTypes from 'prop-types';
 import React from 'react';
+import Rotator from './rotator';
 import SocialIcons from './social-icons';
 import { socialIconList } from './_config/social-icon-list';
 import { mq } from './_shared/media';
@@ -72,6 +73,10 @@ const Footer = ({ author }) => {
           </StyledCopyright>
           <SocialIcons icons={socialIconList} />
         </StyledSocialContainer>
+        {/* <StyledRotatorContainer>
+          Made with
+          <Rotator emojis={['☕', '🍕', '🍺', '🍜', '💖']} />
+        </StyledRotatorContainer> */}
       </StyledFooterContainer>
     </StyledFooter>
   );

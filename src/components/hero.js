@@ -5,8 +5,6 @@ import ButtonLink from './links/button-link';
 import ScrollIndicator from './scroll-indicator';
 import { mq } from './_shared/media';
 import { StyledSection } from './_shared/styled-section';
-import menuLinks from './_config/menu-links';
-import Link from 'gatsby';
 
 const StyledHeroSection = styled(StyledSection)`
   min-height: calc(100vh - 2 * var(--header-height));
@@ -33,8 +31,7 @@ const StyledAuthor = styled.h1`
 `;
 const StyledTagline = styled.h2`
   margin-left: -4px !important;
-  // font-size: 60px !important;
-  // font-weight: 400;
+  font-size: 40px;
   line-height: 1.1;
   margin: 0;
   color: var(--primary-color);
@@ -51,7 +48,7 @@ const StyledDescription = styled.div`
 `;
 
 const Hero = ({ data }) => {
-  const { introduction, author, tagline, description } = data;
+  const { introduction, author, tagline, description, ctaLink, ctaLabel } = data;
 
   return (
     <StyledHeroSection>
@@ -59,7 +56,7 @@ const Hero = ({ data }) => {
       <StyledAuthor>{author}</StyledAuthor>
       <StyledTagline>{tagline}</StyledTagline>
       <StyledDescription dangerouslySetInnerHTML={{ __html: description }} />
-      <ButtonLink />
+      <ButtonLink label={ctaLabel} link={ctaLink} />
       <ScrollIndicator />
     </StyledHeroSection>
   );
