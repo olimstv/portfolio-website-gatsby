@@ -8,4 +8,5 @@ demo_link: 'https://desolate-beyond-38364.herokuapp.com/'
 techs: ['Handlebars', 'Materialize CSS', 'Express.js']
 ---
 
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+"CountLess" is a budget app that helps track incomes and spending. 
+User can manually enter and then track all transactions. 

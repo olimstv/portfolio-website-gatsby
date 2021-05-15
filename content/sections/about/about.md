@@ -2,9 +2,9 @@
 
 
 about_image: './me.jpg'
-techs: ['HTML','CSS','Javascript', 'React', 'Rest API', 'Express', 'MongoDB','Node JS', 'Ruby', Rails', 'PostgreSQL', 'Next JS', 'Gatsby']
+techs: ['HTML','CSS','JavaScript', 'React', 'Rest API', 'Express', 'MongoDB','Node.js', 'Ruby', Rails', 'PostgreSQL', 'Next.js', 'Gatsby.js']
 ---
-Before IT, I successfully built a professional music career, working in various groups and genres from Pop/Rock/Jazz combos to National Symphony Orchestras.
+Before IT, I successfully built a professional music career, working in various genres and ensembles from Pop/Rock/Jazz combos to National Symphony Orchestras.
 
 My journey in the IT industry has begun in the role of Software Test Engineer. Testing Software was a perfect match for my natural drive for quality. For most of my years in testing, I've been performing automation testing using JavaScript language with a set of custom test environments and libraries.
 

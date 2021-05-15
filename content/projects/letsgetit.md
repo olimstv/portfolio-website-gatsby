@@ -8,4 +8,6 @@ demo_link: 'https://letsgetit.work/'
 techs: ['React', 'Next.js', 'MongoDB']
 ---
 
-Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren.
+The open-source web application for fast and easy creation and publishing (with unique public URL) of resumes "tailored" for each particular vacancy.
+
+Once filling in all relevant information about qualification, work experience, etc., to the personal profile, the user can combine each resume according to the ad's requirements.
