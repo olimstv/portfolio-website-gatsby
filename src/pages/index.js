@@ -60,7 +60,7 @@ export const query = graphql`
 
     about: markdownRemark(fileAbsolutePath: { regex: "/content/sections/about/" }) {
       frontmatter {
-        title
+        
         techs
         about_image {
           childImageSharp {

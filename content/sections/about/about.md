@@ -1,11 +1,11 @@
 ---
-title: 'I am a web & software developer.'
+
+
 about_image: './me.jpg'
-techs: ['HTML','CSS','Javascript', 'React', 'Rest API', 'Express', 'MongoDB','Node JS', 'Ruby', Rails', 'PostgreSQL']
+techs: ['HTML','CSS','Javascript', 'React', 'Rest API', 'Express', 'MongoDB','Node JS', 'Ruby', Rails', 'PostgreSQL', 'Next JS', 'Gatsby']
 ---
+Before IT, I successfully built a professional music career, working in various groups and genres from Pop/Rock/Jazz combos to National Symphony Orchestras.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur egestas sit amet arcu tincidunt fermentum. Mauris ac nisl nibh. Etiam nunc eros, blandit vel eros laoreet, accumsan lacinia turpis.
+My journey in the IT industry has begun in the role of Software Test Engineer. Testing Software was a perfect match for my natural drive for quality. For most of my years in testing, I've been performing automation testing using JavaScript language with a set of custom test environments and libraries.
 
-Phasellus ut sagittis eros. Curabitur quis libero consequat, iaculis dolor sollicitudin, ultricies ligula. Donec sodales sed ex a fermentum. Quisque vitae efficitur odio, non aliquam sapien.
-
-Proin egestas luctus ornare. Donec maximus est lobortis, pharetra dolor in, convallis lorem. Duis ut erat in lectus faucibus iaculis. In tincidunt laoreet ante, vel pellentesque risus lacinia eu.
+Developing solutions for solving problems through coding was the most rewarding part of testing for me. So, after completing the <a href='https://generalassemb.ly/'>General Assembly</a> Full-Stack Software Engineering course, here I am as a Full-Stack Web Dev.
