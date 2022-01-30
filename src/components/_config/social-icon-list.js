@@ -4,11 +4,11 @@ export const socialIconList = [
     prefix: 'fab', // fab prefix for brands, fas for solid icons
     link: 'https://www.linkedin.com/in/olimstv/',
   },
-  {
-    name: 'twitter',
-    prefix: 'fab', // fab prefix for brands, fas for solid icons
-    link: 'https://twitter.com/OleksiiMostovyi',
-  },
+  // {
+  //   name: 'twitter',
+  //   prefix: 'fab', // fab prefix for brands, fas for solid icons
+  //   link: 'https://twitter.com/OleksiiMostovyi',
+  // },
   {
     name: 'github',
     prefix: 'fab',

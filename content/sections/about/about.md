@@ -2,7 +2,7 @@
 
 
 about_image: './me.jpg'
-techs: ['HTML','CSS','JavaScript', 'React', 'Rest API', 'Express', 'MongoDB','Node.js', 'Ruby', 'Rails', 'PostgreSQL', 'Next.js', 'Gatsby.js']
+techs: ['HTML','CSS','JavaScript', 'React', 'Rest API', 'Express', 'MongoDB','Node.js', 'PostgreSQL', 'Next.js', 'Gatsby.js']
 ---
 Before IT, I successfully built a professional music career, working in various genres and ensembles from Pop/Rock/Jazz combos to National Symphony Orchestras.
 

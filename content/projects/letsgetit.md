@@ -9,5 +9,4 @@ techs: ['React', 'Next.js', 'MongoDB']
 ---
 
 The open-source web application for fast and easy creation and publishing (with unique public URL) of resumes "tailored" for each particular vacancy.
-
 Once filling in all relevant information about qualification, work experience, etc., to the personal profile, the user can combine each resume according to the ad's requirements.
